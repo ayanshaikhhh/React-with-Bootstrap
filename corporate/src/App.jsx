@@ -4,10 +4,12 @@ import AppHeader from "./components/header";
 import AppHero from "./components/hero.jsx";
 import AppAbout from "./components/about.jsx";
 import AppServices from "./components/services.jsx";
-import AppWorks from "./components/works.jsx"
+import AppWorks from "./components/works.jsx";
 import AppTeams from "./components/teams.jsx";
 import AppTestimonials from "./components/testimonials.jsx";
 import AppPricing from "./components/pricing.jsx";
+import AppBlog from "./components/blog.jsx";
+import AppContact from "./components/contact.jsx";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <AppTeams />
           <AppTestimonials />
           <AppPricing />
+          <AppBlog />
+          <AppContact />
         </main>
       </div>
     </>
